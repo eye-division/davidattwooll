@@ -44,13 +44,17 @@
 
     <div class="container">	
     	<h1>Contact</h1>
-    	
-      <form name="contact-form" id="contact-form" class="form-horizontal">
-        
+
+      <form action="//formspree.io/alun.ward@gmail.com" name="contact-form" id="contact-form" class="form-horizontal">
+        <input type="text" name="_gotcha" class="hide">
+        <!-- 
+        <input type="hidden" name="_next" value="/thanks/"> 
+        -->
+
 		  <div class="form-group">
-		    <label for="email1" class="control-label col-sm-2">Email address</label>
+		    <label for="_replyto" class="control-label col-sm-2">Email address</label>
         <div class="col-sm-6">
-  		    <input type="email" class="form-control" name="email" id="email1" placeholder="Email">
+  		    <input type="email" class="form-control" name="_replyto" id="email1" placeholder="Your email">
         </div>
 		  </div>
 
