@@ -1,0 +1,10 @@
+/* hacks */
+figure.left {
+	float: none;
+	margin: 1em;
+}
+@media (min-width: 768px) {
+	figure.left {
+		float: left;
+	}
+}
